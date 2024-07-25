@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\Operator.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:include\\Tokens\\Operator.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\Operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:src\\Tokens\\Operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\StringLiteral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:src\\Tokens\\StringLiteral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Container\\BidirectionalUnorderedMap.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:include\\Container\\BidirectionalUnorderedMap.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Token.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:src\\Token.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Token.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:include\\Token.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\StringLiteral.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:include\\Tokens\\StringLiteral.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\NumericLiteral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:src\\Tokens\\NumericLiteral.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\NumericLiteral.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C66FC7D4-CC16-48C8-83DB-9249BD0DB85C}|DreamBerd interpreter.vcxproj|solutionrelative:include\\Tokens\\NumericLiteral.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 359,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Operator.cpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\Operator.cpp",
+              "RelativeDocumentMoniker": "src\\Tokens\\Operator.cpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\Operator.cpp",
+              "RelativeToolTip": "src\\Tokens\\Operator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T03:40:21.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Operator.hpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\Operator.hpp",
+              "RelativeDocumentMoniker": "include\\Tokens\\Operator.hpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\Operator.hpp",
+              "RelativeToolTip": "include\\Tokens\\Operator.hpp",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T02:06:58.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BidirectionalUnorderedMap.hpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Container\\BidirectionalUnorderedMap.hpp",
+              "RelativeDocumentMoniker": "include\\Container\\BidirectionalUnorderedMap.hpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Container\\BidirectionalUnorderedMap.hpp",
+              "RelativeToolTip": "include\\Container\\BidirectionalUnorderedMap.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T03:11:23.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-23T06:25:22.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Token.cpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Token.cpp",
+              "RelativeDocumentMoniker": "src\\Token.cpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Token.cpp",
+              "RelativeToolTip": "src\\Token.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T01:47:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringLiteral.cpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\StringLiteral.cpp",
+              "RelativeDocumentMoniker": "src\\Tokens\\StringLiteral.cpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\StringLiteral.cpp",
+              "RelativeToolTip": "src\\Tokens\\StringLiteral.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-25T01:45:39.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Token.hpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Token.hpp",
+              "RelativeDocumentMoniker": "include\\Token.hpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Token.hpp",
+              "RelativeToolTip": "include\\Token.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-23T06:39:17.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StringLiteral.hpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\StringLiteral.hpp",
+              "RelativeDocumentMoniker": "include\\Tokens\\StringLiteral.hpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\StringLiteral.hpp",
+              "RelativeToolTip": "include\\Tokens\\StringLiteral.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-25T01:44:04.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NumericLiteral.hpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\NumericLiteral.hpp",
+              "RelativeDocumentMoniker": "include\\Tokens\\NumericLiteral.hpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\include\\Tokens\\NumericLiteral.hpp",
+              "RelativeToolTip": "include\\Tokens\\NumericLiteral.hpp",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-24T03:02:26.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NumericLiteral.cpp",
+              "DocumentMoniker": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\NumericLiteral.cpp",
+              "RelativeDocumentMoniker": "src\\Tokens\\NumericLiteral.cpp",
+              "ToolTip": "C:\\Program1\\C\u002B\u002B\\DreamBerd interpreter\\src\\Tokens\\NumericLiteral.cpp",
+              "RelativeToolTip": "src\\Tokens\\NumericLiteral.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-24T03:02:27.207Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

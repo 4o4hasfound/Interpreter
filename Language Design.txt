@@ -1,0 +1,32 @@
+End every line  with exclamation mark!
+More than one exclamation mark OK!!!
+End line with question mark will print debug info?
+
+not operator: semicolon;
+
+const const: cannot be changed in any way
+const var: can be edited, not re-assigned
+var const: can be re-assigned, not edited
+var var: can be re-assigned and edited
+
+the language is strong typed
+
+arrays starts at -1, and indices can be float
+when reading arrays, float indices are round to the nearest integer
+when writing arrsys, float indices are inserted between the nearest two interger
+
+object lifetime can be specify by adding <> after the variable/constant name.
+It can be specify by either lines, seconds or scopes.
+Example:
+const const name<2>: last for two lines
+const const name<-2>: last for two lines
+const const name<2s>: last for two seconds
+const const name<2sc>: last for two scopes
+
+to define functions, use any letter in order from "function":
+function add()
+func add()
+fun add()
+fn add()
+functi add()
+f add()

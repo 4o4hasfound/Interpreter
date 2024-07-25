@@ -1,0 +1,5 @@
+C:\Program1\C++\DreamBerd interpreter\src\main.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Debug\main.obj
+C:\Program1\C++\DreamBerd interpreter\src\Token.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Debug\Token.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\NumericLiteral.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Debug\NumericLiteral.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\Operator.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Debug\Operator.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\StringLiteral.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Debug\StringLiteral.obj
