@@ -1,5 +1,16 @@
+C:\Program1\C++\DreamBerd interpreter\include\ASTNode.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\ASTNode.obj
+C:\Program1\C++\DreamBerd interpreter\src\AST.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\AST.obj
+C:\Program1\C++\DreamBerd interpreter\src\configuration.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\configuration.obj
+C:\Program1\C++\DreamBerd interpreter\src\GenerateRegex.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\GenerateRegex.obj
 C:\Program1\C++\DreamBerd interpreter\src\main.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\main.obj
+C:\Program1\C++\DreamBerd interpreter\src\Parser.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\Parser.obj
 C:\Program1\C++\DreamBerd interpreter\src\Token.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\Token.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\BuiltInKeyword.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\BuiltInKeyword.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\Delimiter.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\Delimiter.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\Identifier.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\Identifier.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\LifeTime.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\LifeTime.obj
 C:\Program1\C++\DreamBerd interpreter\src\Tokens\NumericLiteral.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\NumericLiteral.obj
 C:\Program1\C++\DreamBerd interpreter\src\Tokens\Operator.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\Operator.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\StatementTerminator.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\StatementTerminator.obj
 C:\Program1\C++\DreamBerd interpreter\src\Tokens\StringLiteral.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\StringLiteral.obj
+C:\Program1\C++\DreamBerd interpreter\src\Tokens\WhiteSpace.cpp;C:\Program1\C++\DreamBerd interpreter\DreamBer.c66fc7d4\x64\Release\WhiteSpace.obj

@@ -1,17 +1,37 @@
 #pragma once
 #include <any>
+#include <string>
+#include <type_traits>
 
-enum class TokenType {
-	NumericLiteral,
-	StringLiteral,
-	Operator,
-	DELIMITER,
-	Identifier,
-	BuiltInKeyWord
-};
+// Template helper class that detect if a class has certain member variable
+namespace {
+	template <typename T, typename = int>
+	struct HasValueType : std::false_type { };
+
+	template <typename T>
+	struct HasValueType <T, decltype((void)T::valueType, 0)> : std::true_type { };
+}
 
 struct Token {
-	TokenType type;
+	enum TokenType {
+		NumericLiteral,
+		StringLiteral,
+		Boolean,
+		Operator,
+		Delimiter,
+		StatementTerminator,
+		Identifier,
+		BuiltInKeyWord,
+		LifeTime
+	};
 
-	Token(TokenType tokenType);
+	TokenType type;
+	int valueType;
+
+	Token(TokenType tokenType, int underLyingValueType = -1);
+
+	bool isType(TokenType targetTokenType) const;
+	bool isType(TokenType targetTokenType, int targetValueType) const;
+
+	virtual std::wstring str() const = 0;
 };

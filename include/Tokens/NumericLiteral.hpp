@@ -1,17 +1,28 @@
 #pragma once
-#include <variant>
+#include <regex>
+#include <memory>
+#include <string>
+#include <sstream>
 
 #include "Token.hpp"
+#include "Tokens/Operator.hpp"
+#include "Tokens/Delimiter.hpp"
 
-enum class NumericLiteralType {
-	Interger,
-	Double
-};
+#include "GenerateRegex.hpp"
+#include "Container/BidirectionalUnorderedMap.hpp"
 
-struct NumericLiteralToken : public Token {
-	NumericLiteralToken(std::int64_t value);
-	NumericLiteralToken(double value);
+class NumericLiteral : public Token {
+public:
+	enum NumericLiteralType {
+		Interger,
+		Float
+	};
+	NumericLiteral(NumericLiteralType literalType, double value);
 
-	NumericLiteralType literalType;
-	std::variant<std::int64_t, double> literalValue;
+	double literalValue;
+
+	virtual std::wstring str() const override;
+
+	static std::unique_ptr<Token> getToken(std::wstring::const_iterator& start, std::wstring::const_iterator& end, Token* previousToken);
+	static std::vector<std::pair<std::wregex, NumericLiteralType>> regexTokenList;
 };

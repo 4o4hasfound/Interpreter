@@ -22,6 +22,9 @@
     <Filter Include="Header Files\Container">
       <UniqueIdentifier>{b8d9ef9b-e006-46cb-bb10-bb37b95241ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ASTNodes">
+      <UniqueIdentifier>{b6d9762b-3bb9-4844-a8d2-cc4dea061761}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -37,6 +40,45 @@
       <Filter>Source Files\Tokens</Filter>
     </ClCompile>
     <ClCompile Include="src\Tokens\Operator.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\Delimiter.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenerateRegex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\BuiltInKeyword.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\Identifier.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\WhiteSpace.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\StatementTerminator.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\LifeTime.cpp">
+      <Filter>Source Files\Tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ASTNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tokens\Boolean.cpp">
       <Filter>Source Files\Tokens</Filter>
     </ClCompile>
   </ItemGroup>
@@ -55,6 +97,48 @@
     </ClInclude>
     <ClInclude Include="include\Container\BidirectionalUnorderedMap.hpp">
       <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\Delimiter.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GenerateRegex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\BuiltInKeyword.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\Identifier.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\WhiteSpace.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AST.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\StatementTerminator.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\LifeTime.hpp">
+      <Filter>Header Files\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASTNodes\ASTNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASTNodes\ProgramNode.hpp">
+      <Filter>Header Files\ASTNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\configuration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tokens\Boolean.hpp">
+      <Filter>Header Files\Tokens</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

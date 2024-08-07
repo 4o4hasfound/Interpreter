@@ -22,65 +22,63 @@ public:
 		m_listA.push_back(a);
 		m_listB.push_back(b);
 		for (int i = 0; i < m_listA.size(); ++i) {
-			m_AtoB[&m_listA[i]] = &m_listB[i];
-			m_BtoA[&m_listB[i]] = &m_listA[i];
+			m_AtoB[m_listA[i]] = &m_listB[i];
+			m_BtoA[m_listB[i]] = &m_listA[i];
 		}
 	}
 	void insert(const B& b, const A& a) {
 		m_listA.push_back(a);
 		m_listB.push_back(b);
 		for (int i = 0; i < m_listA.size(); ++i) {
-			m_AtoB[&m_listA[i]] = &m_listB[i];
-			m_BtoA[&m_listB[i]] = &m_listA[i];
+			m_AtoB[m_listA[i]] = &m_listB[i];
+			m_BtoA[m_listB[i]] = &m_listA[i];
 		}
 	}
 	void insert(const std::pair<A, B>& value) {
 		m_listA.push_back(value.first);
 		m_listB.push_back(value.second);
 		for (int i = 0; i < m_listA.size(); ++i) {
-			m_AtoB[&m_listA[i]] = &m_listB[i];
-			m_BtoA[&m_listB[i]] = &m_listA[i];
+			m_AtoB[m_listA[i]] = &m_listB[i];
+			m_BtoA[m_listB[i]] = &m_listA[i];
 		}
 	}
 
 	A& operator[](const B& b) {
-		auto itr = std::find(m_listB.begin(), m_listB.end(), b);
-		if (itr == m_listB.end()) {
-			throw std::exception("Key not found");
-		}
-		return *(m_BtoA.at(&(*itr)));
+		return *(m_BtoA.at(b));
 	}
 	B& operator[](const A& a) {
-		auto itr = std::find(m_listA.begin(), m_listA.end(), a);
-		if (itr == m_listA.end()) {
-			throw std::exception("Key not found");
-		}
-		return *(m_AtoB.at(&(*itr)));
+		return *(m_AtoB.at(a));
 	}
 	const A& operator[](const B& b) const {
-		auto itr = std::find(m_listB.begin(), m_listB.end(), b);
-		if (itr == m_listB.end()) {
-			throw std::exception("Key not found");
-		}
-		return *(m_BtoA.at(&(*itr)));
+		return *(m_BtoA.at(b));
 	}
 	const B& operator[](const A& a) const {
-		auto itr = std::find(m_listA.begin(), m_listA.end(), a);
-		if (itr == m_listA.end()) {
-			throw std::exception("Key not found");
-		}
-		return *(m_AtoB.at(&(*itr)));
+		return *(m_AtoB.at(a));
+	}
+
+	int count(const A& a) const {
+		return m_AtoB.count(a);
+	}
+	int count(const B& b) const {
+		return m_BtoA.count(b);
+	}
+
+	const std::vector<A>& listA() const {
+		return m_listA;
+	}
+	const std::vector<B>& listB() const {
+		return m_listB;
 	}
 private:
 	std::vector<A> m_listA;
 	std::vector<B> m_listB;
-	std::unordered_map<A*, B*> m_AtoB;
-	std::unordered_map<B*, A*> m_BtoA;
+	std::unordered_map<A, B*> m_AtoB;
+	std::unordered_map<B, A*> m_BtoA;
 
 	void insertWithoutRealloc(const std::pair<A, B>& value) {
 		m_listA.push_back(value.first);
 		m_listB.push_back(value.second);
-		m_AtoB[&m_listA.back()] = &m_listB.back();
-		m_BtoA[&m_listB.back()] = &m_listA.back();
+		m_AtoB[m_listA.back()] = &m_listB.back();
+		m_BtoA[m_listB.back()] = &m_listA.back();
 	}
 };

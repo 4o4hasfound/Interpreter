@@ -108,7 +108,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
@@ -124,7 +124,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)include</AdditionalIncludeDirectories>
@@ -137,18 +137,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="include\ASTNode.cpp" />
+    <ClCompile Include="src\AST.cpp" />
+    <ClCompile Include="src\configuration.cpp" />
+    <ClCompile Include="src\GenerateRegex.cpp" />
+    <ClCompile Include="src\Lexer.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Parser.cpp" />
     <ClCompile Include="src\Token.cpp" />
+    <ClCompile Include="src\Tokens\Boolean.cpp" />
+    <ClCompile Include="src\Tokens\BuiltInKeyword.cpp" />
+    <ClCompile Include="src\Tokens\Delimiter.cpp" />
+    <ClCompile Include="src\Tokens\Identifier.cpp" />
+    <ClCompile Include="src\Tokens\LifeTime.cpp" />
     <ClCompile Include="src\Tokens\NumericLiteral.cpp" />
     <ClCompile Include="src\Tokens\Operator.cpp" />
+    <ClCompile Include="src\Tokens\StatementTerminator.cpp" />
     <ClCompile Include="src\Tokens\StringLiteral.cpp" />
+    <ClCompile Include="src\Tokens\WhiteSpace.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\AST.hpp" />
+    <ClInclude Include="include\ASTNodes\ASTNode.hpp" />
+    <ClInclude Include="include\ASTNodes\ProgramNode.hpp" />
+    <ClInclude Include="include\configuration.hpp" />
     <ClInclude Include="include\Container\BidirectionalUnorderedMap.hpp" />
+    <ClInclude Include="include\GenerateRegex.hpp" />
+    <ClInclude Include="include\Lexer.hpp" />
+    <ClInclude Include="include\Parser.hpp" />
     <ClInclude Include="include\Token.hpp" />
+    <ClInclude Include="include\Tokens\Boolean.hpp" />
+    <ClInclude Include="include\Tokens\BuiltInKeyword.hpp" />
+    <ClInclude Include="include\Tokens\Delimiter.hpp" />
+    <ClInclude Include="include\Tokens\Identifier.hpp" />
+    <ClInclude Include="include\Tokens\LifeTime.hpp" />
     <ClInclude Include="include\Tokens\NumericLiteral.hpp" />
     <ClInclude Include="include\Tokens\Operator.hpp" />
+    <ClInclude Include="include\Tokens\StatementTerminator.hpp" />
     <ClInclude Include="include\Tokens\StringLiteral.hpp" />
+    <ClInclude Include="include\Tokens\WhiteSpace.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

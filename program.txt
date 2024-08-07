@@ -1,0 +1,13 @@
+var int a<3sc> =[[negative]]2 * (1+1), b=[[absolute]](-8), c=2, d<-1>=3!!!?
+
+
+
+fon add(var const float a<8>, const var const float b<10> = 2, var float fdsafs =  [[positive]](8 * (2 + 3))) var const const string {
+	if a == fdsafs {
+		ima dip a + b!
+	}
+	ima dip "1233""!
+	reverse!
+}!!!?
+
+var int hfdaksjhfkja!
